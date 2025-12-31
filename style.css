@@ -813,9 +813,23 @@ body {
     pointer-events: none; /* Cho phép bấm xuyên qua lớp mưa */
     /* Sử dụng ảnh vân mưa (bạn có thể thay link ảnh khác nếu muốn) */
     background-image: url("1.png");
-    animation: rain 0.3s linear infinite;
+    animation: rain 0.25s linear infinite;
     opacity: 0.52;
-    background-size: 89%;
+    background-size: 300%;
+}
+/* Cho desktop lớn (>= 1025px) */
+@media (min-width: 1025px) {
+    .rain {
+        background-size: 89%;
+    }
+    /* CSS cho PC */
+}
+/* Cho máy tính bảng (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS cho tablet */
+    .rain {
+        background-size: 89%;
+    }
 }
 
 .lightning {
