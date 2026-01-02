@@ -58,7 +58,7 @@ body {
     position: relative;
     background-color: transparent;
     color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
+    border: none rgba(47, 46, 46, 0.472) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -74,11 +74,13 @@ body {
     align-items: center;
     justify-content: center;
     column-gap: 10px;
+    box-shadow: 0 0 5px rgb(198, 80, 80), 0 0 7px rgb(180, 22, 22), 0 0 9px rgb(217, 21, 21),
+        0 0 10px black;
 }
 
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--accentColor);
+        background-color: black;
         color: var(--bgColor);
     }
 }
@@ -1009,12 +1011,12 @@ body {
 /* ----------------------- TÊN PHÁT SÁNG (NEON TEXT) ----------------------- */
 
 #userName {
-    font-size: 30px; /* Chỉnh cỡ chữ to lên một chút */
+    font-size: 40px; /* Chỉnh cỡ chữ to lên một chút */
     font-weight: bold; /* In đậm cho rõ */
     color: #fff; /* Màu chữ gốc là trắng */
     text-align: center; /* Căn giữa */
+    font-family: "UnifrakturMaguntia", cursive;
 
-    font-family: "Pacifico", cursive;
     font-weight: 400;
 
     /* Hiệu ứng phát sáng tĩnh (nếu animation không chạy) */
@@ -1026,8 +1028,7 @@ body {
 /* Hiệu ứng nhịp thở cho chữ */
 
 .cc {
-    font-family: "Playwrite IT Trad", cursive;
-    font-weight: 40;
+    font-weight: 4;
 
     /* Hiệu ứng phát sáng tĩnh (nếu animation không chạy) */
     text-shadow: 0 0 7px #fff, 0 0 10px red, 0 0 21px red;
