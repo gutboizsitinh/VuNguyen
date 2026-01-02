@@ -1011,7 +1011,7 @@ body {
 /* ----------------------- TÊN PHÁT SÁNG (NEON TEXT) ----------------------- */
 
 #userName {
-    font-size: 40px; /* Chỉnh cỡ chữ to lên một chút */
+    font-size: 30px; /* Chỉnh cỡ chữ to lên một chút */
     font-weight: bold; /* In đậm cho rõ */
     color: #fff; /* Màu chữ gốc là trắng */
     text-align: center; /* Căn giữa */
