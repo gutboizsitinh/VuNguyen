@@ -1014,11 +1014,11 @@ body {
     color: #fff; /* Màu chữ gốc là trắng */
     text-align: center; /* Căn giữa */
 
-    font-family: "Story Script", sans-serif;
+    font-family: "Pacifico", cursive;
     font-weight: 400;
 
     /* Hiệu ứng phát sáng tĩnh (nếu animation không chạy) */
-    text-shadow: 0 0 7px black, 0 0 10px red, 0 0 21px red;
+    text-shadow: 0 0 7px red, 0 0 10px red, 0 0 21px red;
 
     /* Animation làm chữ sáng rực lên rồi dịu xuống (nhịp thở) */
 }
@@ -1026,7 +1026,7 @@ body {
 /* Hiệu ứng nhịp thở cho chữ */
 
 .cc {
-    font-family: "Story Script", sans-serif;
+    font-family: "Playwrite IT Trad", cursive;
     font-weight: 40;
 
     /* Hiệu ứng phát sáng tĩnh (nếu animation không chạy) */
